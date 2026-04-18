@@ -1,0 +1,7 @@
+.env
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+n8n_data/
+ollama_data/

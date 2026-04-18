@@ -1,0 +1,16 @@
+{
+  "emailCredentials": {
+    "imap": {
+      "host": "imap.gmail.com",
+      "port": 993,
+      "user": "saidattagowthu@gmail.com",
+      "password": "fjcgykvjfjdixiae"
+    },
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "user": "saidattagowthu@gmail.com",
+      "password": "fjcgykvjfjdixiae"
+    }
+  }
+}

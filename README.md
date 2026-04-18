@@ -52,7 +52,7 @@ Both containers run on a shared bridge network (`ai_responder_network`) so n8n c
 
 ```bash
 git clone https://github.com/gowthusaidatta/Local-AI-Email-Auto-Responder.git
-cd Local-AI-Email-Auto-Responder-with-n8n-and-Ollama
+cd Local-AI-Email-Auto-Responder
 ```
 
 ### Step 2 — Create your environment file
@@ -211,4 +211,3 @@ Confirm the workflow is set to Active in the n8n UI. Verify IMAP credentials are
 **Slow response times**
 
 llama3:8b requires substantial compute. On a CPU-only machine, inference takes 30 to 90 seconds per email. The HTTP Request node has a 120-second timeout set to accommodate this.
-# Local-AI-Email-Auto-Responder
