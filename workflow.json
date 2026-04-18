@@ -31,7 +31,7 @@
             {
               "id": "cond-001",
               "leftValue": "={{ $json.from.address }}",
-              "rightValue": "rushikeshkunisetty@gmail.com",
+              "rightValue": "saidattagowthu@gmail.com",
               "operator": {
                 "type": "string",
                 "operation": "notEquals"
@@ -126,7 +126,7 @@
     },
     {
       "parameters": {
-        "fromEmail": "rushikeshkunisetty@gmail.com",
+        "fromEmail": "saidattagowthu@gmail.com",
         "toEmail": "={{ $('Format Prompt').item.json.originalSender }}",
         "to": "={{ $('Format Prompt').item.json.originalSender }}",
         "subject": "=Re: AI Auto-Reply: {{ $('Format Prompt').item.json.originalSubject }}",
